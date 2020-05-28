@@ -1,0 +1,9 @@
+diff a/game4.10/Source/CHero.cpp b/game4.10/Source/CHero.cpp	(rejected hunks)
+@@ -74,7 +74,6 @@
+ 		const int Y_POS = 0;
+ 		x = X_POS;
+ 		y = Y_POS;
+-		isMovingLeft = isMovingRight = isMovingUp = isMovingDown = isAttacking = isRolling = isInvincible = false;
+ 		isMovingLeft = isMovingRight = isMovingUp = isMovingDown = isAttacking = isRolling = isInvincible = isTalkingToNPC = false;
+ 		PreviousMovement = 0;			//�����W�@�Ӱʧ@
+ 		const int INITIAL_VELOCITY = 15;	// ��l�W�ɳt��

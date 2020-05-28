@@ -1,0 +1,1162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{1a913106-0be0-4476-b0ce-2aa855072614}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="MFC">
+      <UniqueIdentifier>{da904ee8-7f59-4a6c-b3ff-b91b6fb6d0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLibrary">
+      <UniqueIdentifier>{df7aa532-3fdf-46a0-b3fc-8f5922e8d9e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MyGame">
+      <UniqueIdentifier>{0c798913-b7d2-4e26-8241-0f83266cd626}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\ball.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp0.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp10.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp6.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\bmp9.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\center.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\continue.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Res\corner.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\eraser3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\game.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\gamecurs.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\gameDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\help.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="RES\ntutcsie.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\audio.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\game.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameDoc.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gamelib.cpp">
+      <Filter>GameLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameView.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainFrm.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StdAfx.cpp">
+      <Filter>MFC</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\mygame.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CHero.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\gameMap.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CEnemy.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NPC.cpp">
+      <Filter>MyGame</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\audio.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\game.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameDoc.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gamelib.h">
+      <Filter>GameLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameView.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MainFrm.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Resource.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\StdAfx.h">
+      <Filter>MFC</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\mygame.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CHero.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\gameMap.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CEnemy.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\NPC.h">
+      <Filter>MyGame</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Source\game.rc">
+      <Filter>MFC</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="RES\map_background.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item_Sword_29.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\BIG_SWORD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\great_sword_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mapground.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\longGround.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mapground1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mapSlideleftButtom.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\mapSlideleftButtom2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveRight\HeroMoveRight_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveRight\HeroMoveRight_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveRight\HeroMoveRight_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveRight\HeroMoveRight_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveRight\HeroMoveRight_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveLeft\HeroMoveLeft_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveLeft\HeroMoveLeft_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveLeft\HeroMoveLeft_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveLeft\HeroMoveLeft_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\moveLeft\HeroMoveLeft_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump\HeroJump_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump\HeroJump_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump\HeroJump_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump\HeroJump_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump\HeroJump_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump\HeroJump_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump\HeroJump_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump\HeroJump_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\noMove\Smile SunFlower_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\noMove\Smile SunFlower_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\noMove\Smile SunFlower_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_0_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\noMove\noMove_4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_10.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_11.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_12.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_13.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_14.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_15.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\rightWalk\Smile SunFlower_16.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove\sword_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove\sword_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove\sword_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove\sword_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove\sword_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove\sword_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove\sword_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove1\sword_0_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove1\sword_1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove1\sword_2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove1\sword_3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove1\sword_4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove1\sword_5_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\noMove1\sword_6_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\attack\hero_attack_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\attack\hero_attack_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\attack\hero_attack_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\attack\hero_attack_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1\swordAttackMode_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1\swordAttackMode_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1\swordAttackMode_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1\swordAttackMode_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1\swordAttackMode_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1\swordAttackMode_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1\swordAttackMode_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\attack1\hero_attack_0_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\attack1\hero_attack_1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\attack1\hero_attack_2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\attack1\hero_attack_3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1_1\swordAttackMode_0_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1_1\swordAttackMode_1_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1_1\swordAttackMode_2_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1_1\swordAttackMode_3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1_1\swordAttackMode_4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1_1\swordAttackMode_5_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\attackMode_1_1\swordAttackMode_6_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\dead\SunFlower_dead_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\dead\SunFlower_dead_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\dead\SunFlower_dead_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\dead\SunFlower_dead_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\dead\SunFlower_dead_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump1\HeroJump_3_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump1\HeroJump_4_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump1\HeroJump_5_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump1\HeroJump_6_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\jump1\HeroJump_7_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI_1\LifeBar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\LifeBarHead.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Left_Dash\Left_Dash_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Left_Dash\Left_Dash_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Left_Dash\Left_Dash_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Left_Dash\Left_Dash_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\LifeBar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Right_Dash\Right_Dash_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Right_Dash\Right_Dash_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Right_Dash\Right_Dash_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Right_Dash\Right_Dash_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Left\Hero_Roll_Left_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Left\Hero_Roll_Left_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Left\Hero_Roll_Left_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Left\Hero_Roll_Left_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Right\Hero_Roll_Right_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Right\Hero_Roll_Right_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Right\Hero_Roll_Right_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Right\Hero_Roll_Right_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Left\Hero_Roll_Left_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Left\Hero_Roll_Left_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Right\Hero_Roll_Right_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\charactor\Roll_Right\Hero_Roll_Right_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Old_Man\Old_Man_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Old_Man\Old_Man_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Old_Man\Old_Man_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Interaction_Bar\Hit_Top_Arrow\Hit_Top_Arrow_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Interaction_Bar\Hit_Top_Arrow\Hit_Top_Arrow_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Interaction_Bar\TALK\TALK_BAR_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Interaction_Bar\TALK\TALK_BAR_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Interaction_Bar\TALK\TALK_BAR_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Interaction_Bar\TALK\TALK_BAR_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Giraffe\Giraffe Smith_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Giraffe\Giraffe Smith_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Giraffe\Giraffe Smith_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Giraffe\Giraffe Smith_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\NPC\Giraffe\Giraffe Smith_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\GAME_START_BUTTON.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\Level_Up_Bar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\Level_Up_Button.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\Quit_Button.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\UI_Pause.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\Worldmap_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\Worldmap_UI_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Statue\Hero Statue_Bronze.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Statue\Hero Statue_Bronze_Broken.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\BlackMask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\Dash_Left\Sword_Dash_Left_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\Dash_Left\Sword_Dash_Left_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\Dash_Left\Sword_Dash_Left_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\Dash_Left\Sword_Dash_Left_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\DashRight\Sword_Dash_Right_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\DashRight\Sword_Dash_Right_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\DashRight\Sword_Dash_Right_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\DashRight\Sword_Dash_Right_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\leftWalk\Smile SunFlower_Left_Walk_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackRight\Smile SunFlower_Attack_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackRight\Smile SunFlower_Attack_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackRight\Smile SunFlower_Attack_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackRight\Smile SunFlower_Attack_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackRight\Smile SunFlower_Attack_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackRight\Smile SunFlower_Attack_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackRight\Smile SunFlower_Attack_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackLeft\Smile SunFlower_Attack_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackLeft\Smile SunFlower_Attack_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackLeft\Smile SunFlower_Attack_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackLeft\Smile SunFlower_Attack_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackLeft\Smile SunFlower_Attack_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackLeft\Smile SunFlower_Attack_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\attackLeft\Smile SunFlower_Attack_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_broken_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_broken_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\bullet\Sunflower_bullet_broken_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\noMove\Cactus_NoMove_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\noMove\Cactus_NoMove_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\noMove\Cactus_NoMove_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Attack\Cactus_Attack_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Attack\Cactus_Attack_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Attack\Cactus_Attack_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Attack\Cactus_Attack_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Attack\Cactus_Attack_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Attack\Cactus_Attack_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Attack\Cactus_Attack_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Attack\Cactus_Attack_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Dead\Cactus_Dead_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Dead\Cactus_Dead_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Dead\Cactus_Dead_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Dead\Cactus_Dead_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Dead\Cactus_Dead_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Dead\Cactus_Dead_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Dead\Cactus_Dead_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\Dead\Cactus_Dead_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_BLK_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\noMoveLeft\Smile SunFlower_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\noMoveLeft\Smile SunFlower_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\noMoveLeft\Smile SunFlower_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\RollRight\Sword_Roll_right_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\RollRight\Sword_Roll_right_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\RollRight\Sword_Roll_right_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\RollRight\Sword_Roll_right_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\RollLeft\Sword_Roll_Left_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\RollLeft\Sword_Roll_Left_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\RollLeft\Sword_Roll_Left_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\sword\RollLeft\Sword_Roll_Left_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\white.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Bronze Coin_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Bronze Coin_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Bronze Coin_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Bronze Coin_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Silver Coin_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Silver Coin_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Silver Coin_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Silver Coin_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Gold_Coin_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Gold_Coin_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Gold_Coin_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\Gold_Coin_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_GOLD_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\WORD_G.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\UI\WORD_GOLD.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\GetHit\GetHit_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\GetHit\GetHit_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\Cactus\GetHit\GetHit_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\GetHitRight\GetHit_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\GetHitRight\GetHit_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\GetHitRight\GetHit_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Numbers\NUM_Enemy_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\numbers\bitmap48.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\numbers\bitmap3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\noMove\Smile SunFlower_Left.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Enemy\SmileSunFlower\noMove\Smile SunFlower_Right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Right_Mode_0\Right_Mode_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Right_Mode_0\Right_Mode_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Right_Mode_0\Right_Mode_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Right_Mode_0\Right_Mode_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Right_Mode_0\Right_Mode_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Right_Mode_0\Right_Mode_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Right_Mode_0\Right_Mode_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Right_Mode_0\Fire_Stone.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Left_Mode_0\Left_Mode_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Left_Mode_0\Left_Mode_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Left_Mode_0\Left_Mode_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Left_Mode_0\Left_Mode_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Left_Mode_0\Left_Mode_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Left_Mode_0\Left_Mode_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Left_Mode_0\Left_Mode_6.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\RedStone_7.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\RedStone_8.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Item\RedStone_9.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\FireCircle\AttributeAbilityVfx_24.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\FireCircle\AttributeAbilityVfx_25.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\FireCircle\AttributeAbilityVfx_26.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\FireCircle\AttributeAbilityVfx_27.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\FireCircle\AttributeAbilityVfx_28.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\FireCircle\AttributeAbilityVfx_29.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Fire\AttributeAbilityVfx_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Fire\AttributeAbilityVfx_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Fire\AttributeAbilityVfx_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Fire\AttributeAbilityVfx_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Fire\AttributeAbilityVfx_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Fire\AttributeAbilityVfx_5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Box.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Door.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Pop-Up Spike_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Pop-Up Spike_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Pop-Up Spike_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Pop-Up Spike_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Push_Button_Down.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Push_Button_Up.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Switch_Off.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Map_Object\Switch_On.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Shield_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Hit\Hit_0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Hit\Hit_1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Hit\Hit_2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Hit\Hit_3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="RES\Special_Effect\Hit\Hit_4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

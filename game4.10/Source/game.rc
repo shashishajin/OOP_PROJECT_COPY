@@ -1,0 +1,1070 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文 (繁體，台灣) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\game.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BALL                BITMAP                  "..\\res\\ball.bmp"
+
+IDB_ERASER1             BITMAP                  "..\\res\\eraser1.bmp"
+
+IDB_BACKGROUND          BITMAP                  "..\\res\\ntutcsie.bmp"
+
+IDB_CORNER              BITMAP                  "..\\res\\corner.bmp"
+
+IDB_0                   BITMAP                  "..\\res\\bmp0.bmp"
+
+IDB_1                   BITMAP                  "..\\res\\bmp1.bmp"
+
+IDB_2                   BITMAP                  "..\\res\\bmp2.bmp"
+
+IDB_3                   BITMAP                  "..\\res\\bmp3.bmp"
+
+IDB_4                   BITMAP                  "..\\res\\bmp4.bmp"
+
+IDB_5                   BITMAP                  "..\\res\\bmp5.bmp"
+
+IDB_6                   BITMAP                  "..\\res\\bmp6.bmp"
+
+IDB_7                   BITMAP                  "..\\res\\bmp7.bmp"
+
+IDB_8                   BITMAP                  "..\\res\\bmp8.bmp"
+
+IDB_9                   BITMAP                  "..\\res\\bmp9.bmp"
+
+IDB_MINUS               BITMAP                  "..\\res\\bmp10.bmp"
+
+IDB_CENTER              BITMAP                  "..\\res\\center.bmp"
+
+IDB_ERASER2             BITMAP                  "..\\res\\eraser2.bmp"
+
+IDB_ERASER3             BITMAP                  "..\\res\\eraser3.bmp"
+
+IDB_CONTINUE            BITMAP                  "..\\res\\continue.bmp"
+
+IDB_HELP                BITMAP                  "..\\res\\help.bmp"
+
+IDB_LOADING             BITMAP                  "..\\res\\loading.bmp"
+
+IDB_MAPBACKGROUND       BITMAP                  "..\\RES\\map_background.bmp"
+
+IDB_SWORD1              BITMAP                  "..\\RES\\BIG_SWORD.bmp"
+
+IDB_GREATSWORDLOGO      BITMAP                  "..\\RES\\great_sword_logo.bmp"
+
+IDB_MAPGROUND           BITMAP                  "..\\RES\\mapground.bmp"
+
+IDB_LONGGROUND          BITMAP                  "..\\RES\\longGround.bmp"
+
+IDB_MAPGROUND1          BITMAP                  "..\\RES\\mapground1.bmp"
+
+IDB_MAPSLIDE1           BITMAP                  "..\\RES\\mapSlideleftButtom.bmp"
+
+IDB_MAPSLIDE2           BITMAP                  "..\\RES\\mapSlideleftButtom2.bmp"
+
+IDB_HeroNoMove_1        BITMAP                  "..\\RES\\charactor\\noMove\\noMove_0.bmp"
+
+IDB_HeroNoMove_2        BITMAP                  "..\\RES\\charactor\\noMove\\noMove_1.bmp"
+
+IDB_HeroNoMove_3        BITMAP                  "..\\RES\\charactor\\noMove\\noMove_2.bmp"
+
+IDB_HeroNoMove_4        BITMAP                  "..\\RES\\charactor\\noMove\\noMove_3.bmp"
+
+IDB_HeroNoMove_5        BITMAP                  "..\\RES\\charactor\\noMove\\noMove_4.bmp"
+
+IDB_HEROMOVERIGHT_1     BITMAP                  "..\\RES\\charactor\\moveRight\\HeroMoveRight_0.bmp"
+
+IDB_HEROMOVERIGHT_2     BITMAP                  "..\\RES\\charactor\\moveRight\\HeroMoveRight_1.bmp"
+
+IDB_HEROMOVERIGHT_3     BITMAP                  "..\\RES\\charactor\\moveRight\\HeroMoveRight_2.bmp"
+
+IDB_HEROMOVERIGHT_4     BITMAP                  "..\\RES\\charactor\\moveRight\\HeroMoveRight_3.bmp"
+
+IDB_HEROMOVERIGHT_5     BITMAP                  "..\\RES\\charactor\\moveRight\\HeroMoveRight_4.bmp"
+
+IDB_HEROMOVELEFT_1      BITMAP                  "..\\RES\\charactor\\moveLeft\\HeroMoveLeft_0.bmp"
+
+IDB_HEROMOVELEFT_2      BITMAP                  "..\\RES\\charactor\\moveLeft\\HeroMoveLeft_1.bmp"
+
+IDB_HEROMOVELEFT_3      BITMAP                  "..\\RES\\charactor\\moveLeft\\HeroMoveLeft_2.bmp"
+
+IDB_HEROMOVELEFT_4      BITMAP                  "..\\RES\\charactor\\moveLeft\\HeroMoveLeft_3.bmp"
+
+IDB_HEROMOVELEFT_5      BITMAP                  "..\\RES\\charactor\\moveLeft\\HeroMoveLeft_4.bmp"
+
+IDB_HEROJUMP_1          BITMAP                  "..\\RES\\charactor\\jump\\HeroJump_0.bmp"
+
+IDB_HEROJUMP_2          BITMAP                  "..\\RES\\charactor\\jump\\HeroJump_1.bmp"
+
+IDB_HEROJUMP_3          BITMAP                  "..\\RES\\charactor\\jump\\HeroJump_2.bmp"
+
+IDB_HEROJUMP_4          BITMAP                  "..\\RES\\charactor\\jump\\HeroJump_3.bmp"
+
+IDB_HEROJUMP_5          BITMAP                  "..\\RES\\charactor\\jump\\HeroJump_4.bmp"
+
+IDB_HEROJUMP_6          BITMAP                  "..\\RES\\charactor\\jump\\HeroJump_5.bmp"
+
+IDB_HEROJUMP_7          BITMAP                  "..\\RES\\charactor\\jump\\HeroJump_6.bmp"
+
+IDB_HEROJUMP_8          BITMAP                  "..\\RES\\charactor\\jump\\HeroJump_7.bmp"
+
+IDB_HERONOMOVELEFT_1    BITMAP                  "..\\RES\\charactor\\noMove\\noMove_0_1.bmp"
+
+IDB_HERONOMOVELEFT_2    BITMAP                  "..\\RES\\charactor\\noMove\\noMove_1_1.bmp"
+
+IDB_HERONOMOVELEFT_3    BITMAP                  "..\\RES\\charactor\\noMove\\noMove_2_1.bmp"
+
+IDB_HERONOMOVELEFT_4    BITMAP                  "..\\RES\\charactor\\noMove\\noMove_3_1.bmp"
+
+IDB_HERONOMOVELEFT_5    BITMAP                  "..\\RES\\charactor\\noMove\\noMove_4_1.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_1 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_8.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_2 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_9.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_3 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_10.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_4 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_11.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_5 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_12.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_6 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_13.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_7 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_14.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_8 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_15.bmp"
+
+IDB_SUNFLOWERRIGHTWALK_9 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\rightWalk\\Smile SunFlower_16.bmp"
+
+IDB_sword_1             BITMAP                  "..\\RES\\sword\\noMove\\sword_0.bmp"
+
+IDB_sword_2             BITMAP                  "..\\RES\\sword\\noMove\\sword_1.bmp"
+
+IDB_sword_3             BITMAP                  "..\\RES\\sword\\noMove\\sword_2.bmp"
+
+IDB_sword_4             BITMAP                  "..\\RES\\sword\\noMove\\sword_3.bmp"
+
+IDB_sword_5             BITMAP                  "..\\RES\\sword\\noMove\\sword_4.bmp"
+
+IDB_sword_6             BITMAP                  "..\\RES\\sword\\noMove\\sword_5.bmp"
+
+IDB_sword_7             BITMAP                  "..\\RES\\sword\\noMove\\sword_6.bmp"
+
+IDB_SWORD_1_1           BITMAP                  "..\\RES\\sword\\noMove1\\sword_0_1.bmp"
+
+IDB_SWORD_2_1           BITMAP                  "..\\RES\\sword\\noMove1\\sword_1_1.bmp"
+
+IDB_SWORD_3_1           BITMAP                  "..\\RES\\sword\\noMove1\\sword_2_1.bmp"
+
+IDB_SWORD_4_1           BITMAP                  "..\\RES\\sword\\noMove1\\sword_3_1.bmp"
+
+IDB_SWORD_5_1           BITMAP                  "..\\RES\\sword\\noMove1\\sword_4_1.bmp"
+
+IDB_SWORD_6_1           BITMAP                  "..\\RES\\sword\\noMove1\\sword_5_1.bmp"
+
+IDB_SWORD_7_1           BITMAP                  "..\\RES\\sword\\noMove1\\sword_6_1.bmp"
+
+IDB_HEROATTACK_1        BITMAP                  "..\\RES\\charactor\\attack\\hero_attack_0.bmp"
+
+IDB_HEROATTACK_2        BITMAP                  "..\\RES\\charactor\\attack\\hero_attack_1.bmp"
+
+IDB_HEROATTACK_3        BITMAP                  "..\\RES\\charactor\\attack\\hero_attack_2.bmp"
+
+IDB_HEROATTACK_4        BITMAP                  "..\\RES\\charactor\\attack\\hero_attack_3.bmp"
+
+IDB_SWORDATTACK_1       BITMAP                  "..\\RES\\sword\\attackMode_1\\swordAttackMode_0.bmp"
+
+IDB_SWORDATTACK_2       BITMAP                  "..\\RES\\sword\\attackMode_1\\swordAttackMode_1.bmp"
+
+IDB_SWORDATTACK_3       BITMAP                  "..\\RES\\sword\\attackMode_1\\swordAttackMode_2.bmp"
+
+IDB_SWORDATTACK_4       BITMAP                  "..\\RES\\sword\\attackMode_1\\swordAttackMode_3.bmp"
+
+IDB_SWORDATTACK_5       BITMAP                  "..\\RES\\sword\\attackMode_1\\swordAttackMode_4.bmp"
+
+IDB_SWORDATTACK_6       BITMAP                  "..\\RES\\sword\\attackMode_1\\swordAttackMode_5.bmp"
+
+IDB_SWORDATTACK_7       BITMAP                  "..\\RES\\sword\\attackMode_1\\swordAttackMode_6.bmp"
+
+IDB_HEROATTACK_1_1      BITMAP                  "..\\RES\\charactor\\attack1\\hero_attack_0_1.bmp"
+
+IDB_HEROATTACK_2_1      BITMAP                  "..\\RES\\charactor\\attack1\\hero_attack_1_1.bmp"
+
+IDB_HEROATTACK_3_1      BITMAP                  "..\\RES\\charactor\\attack1\\hero_attack_2_1.bmp"
+
+IDB_HEROATTACK_4_1      BITMAP                  "..\\RES\\charactor\\attack1\\hero_attack_3_1.bmp"
+
+IDB_SWORDATTACK_1_1     BITMAP                  "..\\RES\\sword\\attackMode_1_1\\swordAttackMode_0_1.bmp"
+
+IDB_SWORDATTACK_2_1     BITMAP                  "..\\RES\\sword\\attackMode_1_1\\swordAttackMode_1_1.bmp"
+
+IDB_SWORDATTACK_3_1     BITMAP                  "..\\RES\\sword\\attackMode_1_1\\swordAttackMode_2_1.bmp"
+
+IDB_SWORDATTACK_4_1     BITMAP                  "..\\RES\\sword\\attackMode_1_1\\swordAttackMode_3_1.bmp"
+
+IDB_SWORDATTACK_5_1     BITMAP                  "..\\RES\\sword\\attackMode_1_1\\swordAttackMode_4_1.bmp"
+
+IDB_SWORDATTACK_6_1     BITMAP                  "..\\RES\\sword\\attackMode_1_1\\swordAttackMode_5_1.bmp"
+
+IDB_SWORDATTACK_7_1     BITMAP                  "..\\RES\\sword\\attackMode_1_1\\swordAttackMode_6_1.bmp"
+
+IDB_SUNFLOWER_DEAD_0    BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\dead\\SunFlower_dead_1.bmp"
+
+IDB_SUNFLOWER_DEAD_1    BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\dead\\SunFlower_dead_2.bmp"
+
+IDB_SUNFLOWER_DEAD_2    BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\dead\\SunFlower_dead_3.bmp"
+
+IDB_SUNFLOWER_DEAD_3    BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\dead\\SunFlower_dead_4.bmp"
+
+IDB_SUNFLOWER_DEAD_4    BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\dead\\SunFlower_dead_5.bmp"
+
+IDB_HEROJUMP_0_1        BITMAP                  "..\\RES\\charactor\\jump1\\HeroJump_3_1.bmp"
+
+IDB_HEROJUMP_1_1        BITMAP                  "..\\RES\\charactor\\jump1\\HeroJump_4_1.bmp"
+
+IDB_HEROJUMP_2_1        BITMAP                  "..\\RES\\charactor\\jump1\\HeroJump_5_1.bmp"
+
+IDB_HEROJUMP_3_1        BITMAP                  "..\\RES\\charactor\\jump1\\HeroJump_6_1.bmp"
+
+IDB_HEROJUMP_4_1        BITMAP                  "..\\RES\\charactor\\jump1\\HeroJump_7_1.bmp"
+
+IDB_LIFEBAR             BITMAP                  "..\\RES\\UI\\LifeBar.bmp"
+
+IDB_LIFEBARHEAD         BITMAP                  "..\\RES\\UI\\LifeBarHead.bmp"
+
+IDB_DASH_LEFT_1         BITMAP                  "..\\RES\\charactor\\Left_Dash\\Left_Dash_1.bmp"
+
+IDB_DASH_LEFT_2         BITMAP                  "..\\RES\\charactor\\Left_Dash\\Left_Dash_2.bmp"
+
+IDB_DASH_LEFT_3         BITMAP                  "..\\RES\\charactor\\Left_Dash\\Left_Dash_3.bmp"
+
+IDB_DASH_LEFT_4         BITMAP                  "..\\RES\\charactor\\Left_Dash\\Left_Dash_4.bmp"
+
+IDB_DASH_RIGHT_1        BITMAP                  "..\\RES\\charactor\\Right_Dash\\Right_Dash_1.bmp"
+
+IDB_DASH_RIGHT_2        BITMAP                  "..\\RES\\charactor\\Right_Dash\\Right_Dash_2.bmp"
+
+IDB_DASH_RIGHT_3        BITMAP                  "..\\RES\\charactor\\Right_Dash\\Right_Dash_3.bmp"
+
+IDB_DASH_RIGHT_4        BITMAP                  "..\\RES\\charactor\\Right_Dash\\Right_Dash_4.bmp"
+
+IDB_ROLL_LEFT_1         BITMAP                  "..\\RES\\charactor\\Roll_Left\\Hero_Roll_Left_1.bmp"
+
+IDB_ROLL_LEFT_2         BITMAP                  "..\\RES\\charactor\\Roll_Left\\Hero_Roll_Left_2.bmp"
+
+IDB_ROLL_LEFT_3         BITMAP                  "..\\RES\\charactor\\Roll_Left\\Hero_Roll_Left_3.bmp"
+
+IDB_ROLL_LEFT_4         BITMAP                  "..\\RES\\charactor\\Roll_Left\\Hero_Roll_Left_4.bmp"
+
+IDB_ROLL_RIGHT_1        BITMAP                  "..\\RES\\charactor\\Roll_Right\\Hero_Roll_Right_1.bmp"
+
+IDB_ROLL_RIGHT_2        BITMAP                  "..\\RES\\charactor\\Roll_Right\\Hero_Roll_Right_2.bmp"
+
+IDB_ROLL_RIGHT_3        BITMAP                  "..\\RES\\charactor\\Roll_Right\\Hero_Roll_Right_3.bmp"
+
+IDB_ROLL_RIGHT_4        BITMAP                  "..\\RES\\charactor\\Roll_Right\\Hero_Roll_Right_4.bmp"
+
+IDB_ROLL_LEFT_5         BITMAP                  "..\\RES\\charactor\\Roll_Left\\Hero_Roll_Left_5.bmp"
+
+IDB_ROLL_LEFT_6         BITMAP                  "..\\RES\\charactor\\Roll_Left\\Hero_Roll_Left_6.bmp"
+
+IDB_ROLL_RIGHT_5        BITMAP                  "..\\RES\\charactor\\Roll_Right\\Hero_Roll_Right_5.bmp"
+
+IDB_ROLL_RIGHT_6        BITMAP                  "..\\RES\\charactor\\Roll_Right\\Hero_Roll_Right_6.bmp"
+
+IDB_RED_NUM_0           BITMAP                  "..\\RES\\Numbers\\NUM_0.bmp"
+
+IDB_RED_NUM_1           BITMAP                  "..\\RES\\Numbers\\NUM_1.bmp"
+
+IDB_RED_NUM_2           BITMAP                  "..\\RES\\Numbers\\NUM_2.bmp"
+
+IDB_RED_NUM_3           BITMAP                  "..\\RES\\Numbers\\NUM_3.bmp"
+
+IDB_RED_NUM_4           BITMAP                  "..\\RES\\Numbers\\NUM_4.bmp"
+
+IDB_RED_NUM_5           BITMAP                  "..\\RES\\Numbers\\NUM_5.bmp"
+
+IDB_RED_NUM_6           BITMAP                  "..\\RES\\Numbers\\NUM_6.bmp"
+
+IDB_RED_NUM_7           BITMAP                  "..\\RES\\Numbers\\NUM_7.bmp"
+
+IDB_RED_NUM_8           BITMAP                  "..\\RES\\Numbers\\NUM_8.bmp"
+
+IDB_RED_NUM_9           BITMAP                  "..\\RES\\Numbers\\NUM_9.bmp"
+
+IDB_OLD_MAN_1           BITMAP                  "..\\RES\\NPC\\Old_Man\\Old_Man_1.bmp"
+
+IDB_OLD_MAN_2           BITMAP                  "..\\RES\\NPC\\Old_Man\\Old_Man_2.bmp"
+
+IDB_OLD_MAN_3           BITMAP                  "..\\RES\\NPC\\Old_Man\\Old_Man_3.bmp"
+
+IDB_HIT_TOP_ARROW_1     BITMAP                  "..\\RES\\NPC\\Interaction_Bar\\Hit_Top_Arrow\\Hit_Top_Arrow_1.bmp"
+
+IDB_HIT_TOP_ARROW_2     BITMAP                  "..\\RES\\NPC\\Interaction_Bar\\Hit_Top_Arrow\\Hit_Top_Arrow_2.bmp"
+
+IDB_TALK_BAR_1          BITMAP                  "..\\RES\\NPC\\Interaction_Bar\\TALK\\TALK_BAR_1.bmp"
+
+IDB_TALK_BAR_2          BITMAP                  "..\\RES\\NPC\\Interaction_Bar\\TALK\\TALK_BAR_2.bmp"
+
+IDB_TALK_BAR_3          BITMAP                  "..\\RES\\NPC\\Interaction_Bar\\TALK\\TALK_BAR_3.bmp"
+
+IDB_TALK_BAR_4          BITMAP                  "..\\RES\\NPC\\Interaction_Bar\\TALK\\TALK_BAR_4.bmp"
+
+IDB_GIRAFFE_1           BITMAP                  "..\\RES\\NPC\\Giraffe\\Giraffe Smith_0.bmp"
+
+IDB_GIRAFFE_2           BITMAP                  "..\\RES\\NPC\\Giraffe\\Giraffe Smith_1.bmp"
+
+IDB_GIRAFFE_3           BITMAP                  "..\\RES\\NPC\\Giraffe\\Giraffe Smith_2.bmp"
+
+IDB_GIRAFFE_4           BITMAP                  "..\\RES\\NPC\\Giraffe\\Giraffe Smith_3.bmp"
+
+IDB_GIRAFFE_5           BITMAP                  "..\\RES\\NPC\\Giraffe\\Giraffe Smith_4.bmp"
+
+IDB_UI_GAME_START       BITMAP                  "..\\RES\\UI\\GAME_START_BUTTON.bmp"
+
+IDB_UI_LEVEL_UP_INTERFACE BITMAP                  "..\\RES\\UI\\Level_Up_Bar.bmp"
+
+IDB_UI_LEVEL_UP_BAR     BITMAP                  "..\\RES\\UI\\Level_Up_Button.bmp"
+
+IDB_UI_QUIT             BITMAP                  "..\\RES\\UI\\Quit_Button.bmp"
+
+IDB_UI_PAUSE            BITMAP                  "..\\RES\\UI\\UI_Pause.bmp"
+
+IDB_WORLDMAP_1          BITMAP                  "..\\RES\\UI\\Worldmap_1.bmp"
+
+IDB_WORLDMAP_UI         BITMAP                  "..\\RES\\UI\\Worldmap_UI_1.bmp"
+
+IDB_STATUE              BITMAP                  "..\\RES\\Statue\\Hero Statue_Bronze.bmp"
+
+IDB_STATUE_BROKEN       BITMAP                  "..\\RES\\Statue\\Hero Statue_Bronze_Broken.bmp"
+
+IDB_BLACKMASK           BITMAP                  "..\\RES\\UI\\BlackMask.bmp"
+
+IDB_SWORDDASHLEFT_0     BITMAP                  "..\\RES\\sword\\Dash_Left\\Sword_Dash_Left_0.bmp"
+
+IDB_SWORDDASHLEFT_1     BITMAP                  "..\\RES\\sword\\Dash_Left\\Sword_Dash_Left_1.bmp"
+
+IDB_SWORDDASHLEFT_2     BITMAP                  "..\\RES\\sword\\Dash_Left\\Sword_Dash_Left_2.bmp"
+
+IDB_SWORDDASHLEFT_3     BITMAP                  "..\\RES\\sword\\Dash_Left\\Sword_Dash_Left_3.bmp"
+
+IDB_SWORDDASHRIGHT_0    BITMAP                  "..\\RES\\sword\\DashRight\\Sword_Dash_Right_0.bmp"
+
+IDB_SWORDDASHRIGHT_1    BITMAP                  "..\\RES\\sword\\DashRight\\Sword_Dash_Right_1.bmp"
+
+IDB_SWORDDASHRIGHT_2    BITMAP                  "..\\RES\\sword\\DashRight\\Sword_Dash_Right_2.bmp"
+
+IDB_SWORDDASHRIGHT_3    BITMAP                  "..\\RES\\sword\\DashRight\\Sword_Dash_Right_3.bmp"
+
+IDB_SUNFLOWERLEFTWALK_0 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_0.bmp"
+
+IDB_SUNFLOWERLEFTWALK_1 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_1.bmp"
+
+IDB_SUNFLOWERLEFTWALK_2 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_2.bmp"
+
+IDB_SUNFLOWERLEFTWALK_3 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_3.bmp"
+
+IDB_SUNFLOWERLEFTWALK_4 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_4.bmp"
+
+IDB_SUNFLOWERLEFTWALK_5 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_5.bmp"
+
+IDB_SUNFLOWERLEFTWALK_6 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_6.bmp"
+
+IDB_SUNFLOWERLEFTWALK_7 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_7.bmp"
+
+IDB_SUNFLOWERLEFTWALK_8 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\leftWalk\\Smile SunFlower_Left_Walk_8.bmp"
+
+IDB_SUNFLOWERATTACKRIGHT_0 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackRight\\Smile SunFlower_Attack_0.bmp"
+
+IDB_SUNFLOWERATTACKRIGHT_1 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackRight\\Smile SunFlower_Attack_1.bmp"
+
+IDB_SUNFLOWERATTACKRIGHT_2 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackRight\\Smile SunFlower_Attack_2.bmp"
+
+IDB_SUNFLOWERATTACKRIGHT_3 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackRight\\Smile SunFlower_Attack_3.bmp"
+
+IDB_SUNFLOWERATTACKRIGHT_4 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackRight\\Smile SunFlower_Attack_4.bmp"
+
+IDB_SUNFLOWERATTACKRIGHT_5 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackRight\\Smile SunFlower_Attack_5.bmp"
+
+IDB_SUNFLOWERATTACKRIGHT_6 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackRight\\Smile SunFlower_Attack_6.bmp"
+
+IDB_SUNFLOWERATTACKLEFT_0 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackLeft\\Smile SunFlower_Attack_0.bmp"
+
+IDB_SUNFLOWERATTACKLEFT_1 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackLeft\\Smile SunFlower_Attack_1.bmp"
+
+IDB_SUNFLOWERATTACKLEFT_2 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackLeft\\Smile SunFlower_Attack_2.bmp"
+
+IDB_SUNFLOWERATTACKLEFT_3 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackLeft\\Smile SunFlower_Attack_3.bmp"
+
+IDB_SUNFLOWERATTACKLEFT_4 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackLeft\\Smile SunFlower_Attack_4.bmp"
+
+IDB_SUNFLOWERATTACKLEFT_5 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackLeft\\Smile SunFlower_Attack_5.bmp"
+
+IDB_SUNFLOWERATTACKLEFT_6 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\attackLeft\\Smile SunFlower_Attack_6.bmp"
+
+IDB_SUNFLOWERBULLET_0   BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_0.bmp"
+
+IDB_SUNFLOWERBULLET_1   BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_1.bmp"
+
+IDB_SUNFLOWERBULLET_2   BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_2.bmp"
+
+IDB_SUNFLOWERBULLET_3   BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_3.bmp"
+
+IDB_SUNFLOWERBULLET_4   BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_4.bmp"
+
+IDB_SUNFLOWERBULLET_5   BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_5.bmp"
+
+IDB_SUNFLOWERBULLET_6   BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_6.bmp"
+
+IDB_SUNFLOWERBULLET_7   BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_7.bmp"
+
+IDB_SUNFLOWERBULLET_BROKEN_0 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_broken_0.bmp"
+
+IDB_SUNFLOWERBULLET_BROKEN_1 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_broken_1.bmp"
+
+IDB_SUNFLOWERBULLET_BROKEN_2 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\bullet\\Sunflower_bullet_broken_2.bmp"
+
+IDB_CACTUSNOMOVE_0      BITMAP                  "..\\RES\\Enemy\\Cactus\\noMove\\Cactus_NoMove_0.bmp"
+
+IDB_CACTUSNOMOVE_1      BITMAP                  "..\\RES\\Enemy\\Cactus\\noMove\\Cactus_NoMove_1.bmp"
+
+IDB_CACTUSNOMOVE_2      BITMAP                  "..\\RES\\Enemy\\Cactus\\noMove\\Cactus_NoMove_2.bmp"
+
+IDB_CACTUSATTACK_0      BITMAP                  "..\\RES\\Enemy\\Cactus\\Attack\\Cactus_Attack_0.bmp"
+
+IDB_CACTUSATTACK_1      BITMAP                  "..\\RES\\Enemy\\Cactus\\Attack\\Cactus_Attack_1.bmp"
+
+IDB_CACTUSATTACK_2      BITMAP                  "..\\RES\\Enemy\\Cactus\\Attack\\Cactus_Attack_2.bmp"
+
+IDB_CACTUSATTACK_3      BITMAP                  "..\\RES\\Enemy\\Cactus\\Attack\\Cactus_Attack_3.bmp"
+
+IDB_CACTUSATTACK_4      BITMAP                  "..\\RES\\Enemy\\Cactus\\Attack\\Cactus_Attack_4.bmp"
+
+IDB_CACTUSATTACK_5      BITMAP                  "..\\RES\\Enemy\\Cactus\\Attack\\Cactus_Attack_5.bmp"
+
+IDB_CACTUSATTACK_6      BITMAP                  "..\\RES\\Enemy\\Cactus\\Attack\\Cactus_Attack_6.bmp"
+
+IDB_CACTUSATTACK_7      BITMAP                  "..\\RES\\Enemy\\Cactus\\Attack\\Cactus_Attack_7.bmp"
+
+IDB_CACTUSDEAD_0        BITMAP                  "..\\RES\\Enemy\\Cactus\\Dead\\Cactus_Dead_0.bmp"
+
+IDB_CACTUSDEAD_1        BITMAP                  "..\\RES\\Enemy\\Cactus\\Dead\\Cactus_Dead_1.bmp"
+
+IDB_CACTUSDEAD_2        BITMAP                  "..\\RES\\Enemy\\Cactus\\Dead\\Cactus_Dead_2.bmp"
+
+IDB_CACTUSDEAD_3        BITMAP                  "..\\RES\\Enemy\\Cactus\\Dead\\Cactus_Dead_3.bmp"
+
+IDB_CACTUSDEAD_4        BITMAP                  "..\\RES\\Enemy\\Cactus\\Dead\\Cactus_Dead_4.bmp"
+
+IDB_CACTUSDEAD_5        BITMAP                  "..\\RES\\Enemy\\Cactus\\Dead\\Cactus_Dead_5.bmp"
+
+IDB_CACTUSDEAD_6        BITMAP                  "..\\RES\\Enemy\\Cactus\\Dead\\Cactus_Dead_6.bmp"
+
+IDB_CACTUSDEAD_7        BITMAP                  "..\\RES\\Enemy\\Cactus\\Dead\\Cactus_Dead_7.bmp"
+
+IDB_NUM_BLK_0           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_0.bmp"
+
+IDB_NUM_BLK_1           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_1.bmp"
+
+IDB_NUM_BLK_2           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_2.bmp"
+
+IDB_NUM_BLK_3           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_3.bmp"
+
+IDB_NUM_BLK_4           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_4.bmp"
+
+IDB_NUM_BLK_5           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_5.bmp"
+
+IDB_NUM_BLK_6           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_6.bmp"
+
+IDB_NUM_BLK_7           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_7.bmp"
+
+IDB_NUM_BLK_8           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_8.bmp"
+
+IDB_NUM_BLK_9           BITMAP                  "..\\RES\\Numbers\\NUM_BLK_9.bmp"
+
+IDB_SWORDROLLRIGHT_0    BITMAP                  "..\\RES\\sword\\RollRight\\Sword_Roll_right_0.bmp"
+
+IDB_SWORDROLLRIGHT_1    BITMAP                  "..\\RES\\sword\\RollRight\\Sword_Roll_right_1.bmp"
+
+IDB_SWORDROLLRIGHT_2    BITMAP                  "..\\RES\\sword\\RollRight\\Sword_Roll_right_2.bmp"
+
+IDB_SWORDROLLRIGHT_3    BITMAP                  "..\\RES\\sword\\RollRight\\Sword_Roll_right_3.bmp"
+
+IDB_SWORDROLLLEFT_0     BITMAP                  "..\\RES\\sword\\RollLeft\\Sword_Roll_Left_0.bmp"
+
+IDB_SWORDROLLLEFT_1     BITMAP                  "..\\RES\\sword\\RollLeft\\Sword_Roll_Left_1.bmp"
+
+IDB_SWORDROLLLEFT_2     BITMAP                  "..\\RES\\sword\\RollLeft\\Sword_Roll_Left_2.bmp"
+
+IDB_SWORDROLLLEFT_3     BITMAP                  "..\\RES\\sword\\RollLeft\\Sword_Roll_Left_3.bmp"
+
+IDB_WHITE               BITMAP                  "..\\RES\\UI\\white.bmp"
+
+IDB_BRONZECOIN_0        BITMAP                  "..\\RES\\Item\\Bronze Coin_0.bmp"
+
+IDB_BRONZECOIN_1        BITMAP                  "..\\RES\\Item\\Bronze Coin_1.bmp"
+
+IDB_BRONZECOIN_2        BITMAP                  "..\\RES\\Item\\Bronze Coin_2.bmp"
+
+IDB_BRONZECOIN_3        BITMAP                  "..\\RES\\Item\\Bronze Coin_3.bmp"
+
+IDB_SILVERCOIN_0        BITMAP                  "..\\RES\\Item\\Silver Coin_0.bmp"
+
+IDB_SILVERCOIN_1        BITMAP                  "..\\RES\\Item\\Silver Coin_1.bmp"
+
+IDB_SILVERCOIN_2        BITMAP                  "..\\RES\\Item\\Silver Coin_2.bmp"
+
+IDB_SILVERCOIN_3        BITMAP                  "..\\RES\\Item\\Silver Coin_3.bmp"
+
+IDB_GOLDCOIN_0          BITMAP                  "..\\RES\\Item\\Gold_Coin_0.bmp"
+
+IDB_GOLDCOIN_1          BITMAP                  "..\\RES\\Item\\Gold_Coin_1.bmp"
+
+IDB_GOLDCOIN_2          BITMAP                  "..\\RES\\Item\\Gold_Coin_2.bmp"
+
+IDB_GOLDCOIN_3          BITMAP                  "..\\RES\\Item\\Gold_Coin_3.bmp"
+
+IDB_NUM_GOLD_0          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_0.bmp"
+
+IDB_NUM_GOLD_1          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_1.bmp"
+
+IDB_NUM_GOLD_2          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_2.bmp"
+
+IDB_NUM_GOLD_3          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_3.bmp"
+
+IDB_NUM_GOLD_4          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_4.bmp"
+
+IDB_NUM_GOLD_5          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_5.bmp"
+
+IDB_NUM_GOLD_6          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_6.bmp"
+
+IDB_NUM_GOLD_7          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_7.bmp"
+
+IDB_NUM_GOLD_8          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_8.bmp"
+
+IDB_NUM_GOLD_9          BITMAP                  "..\\RES\\Numbers\\NUM_GOLD_9.bmp"
+
+IDB_WORD_G              BITMAP                  "..\\RES\\UI\\WORD_G.bmp"
+
+IDB_WORD_GOLD           BITMAP                  "..\\RES\\UI\\WORD_GOLD.bmp"
+
+IDB_CACTUSGETHIT_0      BITMAP                  "..\\RES\\Enemy\\Cactus\\GetHit\\GetHit_0.bmp"
+
+IDB_CACTUSGETHIT_1      BITMAP                  "..\\RES\\Enemy\\Cactus\\GetHit\\GetHit_1.bmp"
+
+IDB_CACTUSGETHIT_2      BITMAP                  "..\\RES\\Enemy\\Cactus\\GetHit\\GetHit_2.bmp"
+
+IDB_SUNFLOWERGETHITRIGHT_0 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\GetHitRight\\GetHit_0.bmp"
+
+IDB_SUNFLOWERGETHITRIGHT_1 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\GetHitRight\\GetHit_1.bmp"
+
+IDB_SUNFLOWERGETHITRIGHT_2 BITMAP                  "..\\RES\\Enemy\\SmileSunFlower\\GetHitRight\\GetHit_2.bmp"
+
+IDB_ENEMY_NUM_0         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_0.bmp"
+
+IDB_ENEMY_NUM_1         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_1.bmp"
+
+IDB_ENEMY_NUM_2         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_2.bmp"
+
+IDB_ENEMY_NUM_3         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_3.bmp"
+
+IDB_ENEMY_NUM_4         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_4.bmp"
+
+IDB_ENEMY_NUM_5         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_5.bmp"
+
+IDB_ENEMY_NUM_6         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_6.bmp"
+
+IDB_ENEMY_NUM_7         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_7.bmp"
+
+IDB_ENEMY_NUM_8         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_8.bmp"
+
+IDB_ENEMY_NUM_9         BITMAP                  "..\\RES\\Numbers\\NUM_Enemy_9.bmp"
+
+IDB_FIRESWORDRIGHT_0    BITMAP                  "..\\RES\\Special_Effect\\Right_Mode_0\\Right_Mode_0.bmp"
+
+IDB_FIRESWORDRIGHT_1    BITMAP                  "..\\RES\\Special_Effect\\Right_Mode_0\\Right_Mode_1.bmp"
+
+IDB_FIRESWORDRIGHT_2    BITMAP                  "..\\RES\\Special_Effect\\Right_Mode_0\\Right_Mode_2.bmp"
+
+IDB_FIRESWORDRIGHT_3    BITMAP                  "..\\RES\\Special_Effect\\Right_Mode_0\\Right_Mode_3.bmp"
+
+IDB_FIRESWORDRIGHT_4    BITMAP                  "..\\RES\\Special_Effect\\Right_Mode_0\\Right_Mode_4.bmp"
+
+IDB_FIRESWORDRIGHT_5    BITMAP                  "..\\RES\\Special_Effect\\Right_Mode_0\\Right_Mode_5.bmp"
+
+IDB_FIRESWORDRIGHT_6    BITMAP                  "..\\RES\\Special_Effect\\Right_Mode_0\\Right_Mode_6.bmp"
+
+IDB_FIRESTONE           BITMAP                  "..\\RES\\Special_Effect\\Right_Mode_0\\Fire_Stone.bmp"
+
+IDB_FIRESWORDLEFT_0     BITMAP                  "..\\RES\\Special_Effect\\Left_Mode_0\\Left_Mode_0.bmp"
+
+IDB_FIRESWORDLEFT_1     BITMAP                  "..\\RES\\Special_Effect\\Left_Mode_0\\Left_Mode_1.bmp"
+
+IDB_FIRESWORDLEFT_2     BITMAP                  "..\\RES\\Special_Effect\\Left_Mode_0\\Left_Mode_2.bmp"
+
+IDB_FIRESWORDLEFT_3     BITMAP                  "..\\RES\\Special_Effect\\Left_Mode_0\\Left_Mode_3.bmp"
+
+IDB_FIRESWORDLEFT_4     BITMAP                  "..\\RES\\Special_Effect\\Left_Mode_0\\Left_Mode_4.bmp"
+
+IDB_FIRESWORDLEFT_5     BITMAP                  "..\\RES\\Special_Effect\\Left_Mode_0\\Left_Mode_5.bmp"
+
+IDB_FIRESWORDLEFT_6     BITMAP                  "..\\RES\\Special_Effect\\Left_Mode_0\\Left_Mode_6.bmp"
+
+IDB_REDPOTSMALL         BITMAP                  "..\\RES\\Item\\RedStone_7.bmp"
+
+IDB_REDPOTFULL          BITMAP                  "..\\RES\\Item\\RedStone_8.bmp"
+
+IDB_REDPOTMEDIUM        BITMAP                  "..\\RES\\Item\\RedStone_9.bmp"
+
+IDB_FIRECIRCLE_0        BITMAP                  "..\\RES\\Special_Effect\\FireCircle\\AttributeAbilityVfx_24.bmp"
+
+IDB_FIRECIRCLE_1        BITMAP                  "..\\RES\\Special_Effect\\FireCircle\\AttributeAbilityVfx_25.bmp"
+
+IDB_FIRECIRCLE_2        BITMAP                  "..\\RES\\Special_Effect\\FireCircle\\AttributeAbilityVfx_26.bmp"
+
+IDB_FIRECIRCLE_3        BITMAP                  "..\\RES\\Special_Effect\\FireCircle\\AttributeAbilityVfx_27.bmp"
+
+IDB_FIRECIRCLE_4        BITMAP                  "..\\RES\\Special_Effect\\FireCircle\\AttributeAbilityVfx_28.bmp"
+
+IDB_FIRECIRCLE_5        BITMAP                  "..\\RES\\Special_Effect\\FireCircle\\AttributeAbilityVfx_29.bmp"
+
+IDB_FIRE_0              BITMAP                  "..\\RES\\Special_Effect\\Fire\\AttributeAbilityVfx_0.bmp"
+
+IDB_FIRE_1              BITMAP                  "..\\RES\\Special_Effect\\Fire\\AttributeAbilityVfx_1.bmp"
+
+IDB_FIRE_2              BITMAP                  "..\\RES\\Special_Effect\\Fire\\AttributeAbilityVfx_2.bmp"
+
+IDB_FIRE_3              BITMAP                  "..\\RES\\Special_Effect\\Fire\\AttributeAbilityVfx_3.bmp"
+
+IDB_FIRE_4              BITMAP                  "..\\RES\\Special_Effect\\Fire\\AttributeAbilityVfx_4.bmp"
+
+IDB_FIRE_5              BITMAP                  "..\\RES\\Special_Effect\\Fire\\AttributeAbilityVfx_5.bmp"
+
+IDB_BOX                 BITMAP                  "..\\RES\\Map_Object\\Box.bmp"
+
+IDB_DOOR                BITMAP                  "..\\RES\\Map_Object\\Door.bmp"
+
+IDB_POPUPSPIKE_0        BITMAP                  "..\\RES\\Map_Object\\Pop-Up Spike_0.bmp"
+
+IDB_POPUPSPIKE_1        BITMAP                  "..\\RES\\Map_Object\\Pop-Up Spike_1.bmp"
+
+IDB_POPUPSPIKE_2        BITMAP                  "..\\RES\\Map_Object\\Pop-Up Spike_2.bmp"
+
+IDB_POPUPSPIKE_3        BITMAP                  "..\\RES\\Map_Object\\Pop-Up Spike_3.bmp"
+
+IDB_PUSHBUTTONDOWN      BITMAP                  "..\\RES\\Map_Object\\Push_Button_Down.bmp"
+
+IDB_PUSHBUTTONUP        BITMAP                  "..\\RES\\Map_Object\\Push_Button_Up.bmp"
+
+IDB_SWITCH_OFF          BITMAP                  "..\\RES\\Map_Object\\Switch_Off.bmp"
+
+IDB_SWITCH_ON           BITMAP                  "..\\RES\\Map_Object\\Switch_On.bmp"
+
+IDB_SHIELD_0            BITMAP                  "..\\RES\\Special_Effect\\Shield_0.bmp"
+
+IDB_HIT_0               BITMAP                  "..\\RES\\Special_Effect\\Hit\\Hit_0.bmp"
+
+IDB_HIT_1               BITMAP                  "..\\RES\\Special_Effect\\Hit\\Hit_1.bmp"
+
+IDB_HIT_2               BITMAP                  "..\\RES\\Special_Effect\\Hit\\Hit_2.bmp"
+
+IDB_HIT_3               BITMAP                  "..\\RES\\Special_Effect\\Hit\\Hit_3.bmp"
+
+IDB_HIT_4               BITMAP                  "..\\RES\\Special_Effect\\Hit\\Hit_4.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_GAMECURSOR          CURSOR                  "..\\res\\gamecurs.cur"
+
+#endif    // 中文 (繁體，台灣) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英文 (美國) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "..\\res\\Toolbar.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "..\\res\\game.ico"
+
+IDR_GAMETYPE            ICON                    "..\\res\\gameDoc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_BUTTON_FULLSCREEN
+    BUTTON      ID_BUTTON_PAUSE
+    SEPARATOR
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New",                        ID_FILE_NEW
+        MENUITEM "Pause\tCtrl+Q",               ID_FILE_PAUSE
+        MENUITEM "&Open...",                    ID_FILE_OPEN
+        MENUITEM "&Save",                       ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...",                   ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Fullscreen\tCtrl+F",         ID_TOGGLE_FULLSCREEN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About game...",              ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "F",            ID_TOGGLE_FULLSCREEN,   VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_FILE_PAUSE,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 218, 79
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About game"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Game Framework Version 4.8",IDC_STATIC,39,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002-2012",IDC_STATIC,39,23,119,8
+    DEFPUSHBUTTON   "OK",IDOK,172,7,39,14,WS_GROUP
+    LTEXT           "Liense: GPL",IDC_STATIC,39,35,119,8
+    PUSHBUTTON      "ReadMe",IDC_README,172,24,39,13,WS_GROUP
+    LTEXT           "Author: Woei-Kae Chen, CSIE Department, NTUT",IDC_STATIC,39,47,159,8
+    LTEXT           "http://www.ntut.edu.tw/~wkchen/game",IDC_STATIC,39,60,159,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "game MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "game"
+            VALUE "LegalCopyright", "Copyright (C) 1999"
+            VALUE "OriginalFilename", "game.EXE"
+            VALUE "ProductName", "game Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 68
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "game\n\nGame\n\n\nGame.Document\nGame Document"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "game"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUTTON_FULLSCREEN    "Full Screen\nFull Screen"
+    ID_BUTTON_PAUSE         "Pause Game\nPause Game"
+    ID_BUTTON_UNITTEST      "Perform Unit Test"
+END
+
+#endif    // 英文 (美國) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\game.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
